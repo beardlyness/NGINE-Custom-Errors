@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>NGINE | Error</title>
+      <title>NGINE | Error 404 Not Found</title>
        <meta charset="UTF-8">
 
        <style>
@@ -175,4 +175,13 @@
         $server_ip = ($_SERVER['SERVER_ADDR']);
         $server_host = (gethostname());
         $origin_ip = ($_SERVER['REMOTE_ADDR']);
+        function url(){
+          return sprintf(
+            "%s://%s%s",
+            isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
+            $_SERVER['SERVER_NAME'],
+            $_SERVER['REQUEST_URI']
+          );
+        }
+        $url_path = (url());
 ?>
