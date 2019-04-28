@@ -9,7 +9,7 @@
         <p>The server terminated an operation because it encountered an infinite loop while processing a request with "Depth: infinity". This status indicates that the entire operation failed.</p>
         <p>Server: <code><?php echo $server_ip; ?></code> | Visitor: <code><?php echo $origin_ip; ?></code></p>
         <p>Hostname: <code><?php echo $server_host; ?></code></p>
-        <o>URI Request: <code><?php echo $url_path; ?></code></p>
+        <p>URI Request: <code><?php echo $url_path; ?></code></p>
         <p>Web Directory: <code>/var/www/html/domain/live</code></p>
     </section>
 
