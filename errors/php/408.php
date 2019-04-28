@@ -9,7 +9,7 @@
         <p>A server SHOULD send the "close" connection option in the response, since 408 implies that the server has decided to close the connection rather than continue waiting. If the client has an outstanding request in transit, the client MAY repeat that request on a new connection.</p>
         <p>Server: <code><?php echo $server_ip; ?></code> | Visitor: <code><?php echo $origin_ip; ?></code></p>
         <p>Hostname: <code><?php echo $server_host; ?></code></p>
-        <o>URI Request: <code><?php echo $url_path; ?></code></p>
+        <p>URI Request: <code><?php echo $url_path; ?></code></p>
         <p>Web Directory: <code>/var/www/html/domain/live</code></p>
     </section>
 
