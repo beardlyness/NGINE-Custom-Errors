@@ -9,7 +9,7 @@
         <p>The server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request.</p>
         <p>Server: <code><?php echo $server_ip; ?></code> | Visitor: <code><?php echo $origin_ip; ?></code></p>
         <p>Hostname: <code><?php echo $server_host; ?></code></p>
-        <o>URI Request: <code><?php echo $url_path; ?></code></p>
+        <p>URI Request: <code><?php echo $url_path; ?></code></p>
         <p>Web Directory: <code>/var/www/html/domain/live</code></p>
     </section>
 
