@@ -9,7 +9,7 @@
         <p>The target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request, and the server is unwilling to supply a default representation.</p>
         <p>Server: <code><?php echo $server_ip; ?></code> | Visitor: <code><?php echo $origin_ip; ?></code></p>
         <p>Hostname: <code><?php echo $server_host; ?></code></p>
-        <o>URI Request: <code><?php echo $url_path; ?></code></p>
+        <p>URI Request: <code><?php echo $url_path; ?></code></p>
         <p>Web Directory: <code>/var/www/html/domain/live</code></p>
     </section>
 
