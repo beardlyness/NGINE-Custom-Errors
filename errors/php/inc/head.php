@@ -26,7 +26,7 @@
        max-width: 850px;
        margin: 0 auto;
        padding: 20px;
-       margin-top: 100px;
+       margin-top: 40px;
        background: #fff;
        border-radius: 5px;
        -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.3);
