@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>NGINE | Error 404 Not Found</title>
+      <title>NGINE | Error</title>
        <meta charset="UTF-8">
 
        <style>
